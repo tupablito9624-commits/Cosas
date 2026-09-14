@@ -255,7 +255,7 @@ dos magos enfrentados?
     `,
 
     answers: [
-        "The Prestige",
+        "El truco FInal",
         "Star Wars",
         "Ahora me ves",
         "Harry Potter"
