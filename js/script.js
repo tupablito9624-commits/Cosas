@@ -68,7 +68,6 @@ Slytherin identificado.
     expediente: "003",
     title: "Primera misión",
     image: "assets/images/parquesur.jpg",
-
     question: `
 📍 MISIÓN 1
 
