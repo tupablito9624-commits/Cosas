@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expediente 7</title>
+
+    <link rel="stylesheet" href="../Proposicion/css/style.css">
+</head>
+
+<body>
+
+    <!-- Fondo -->
+    <div id="background"></div>
+
+    <!-- Pantalla inicial -->
+    <div id="introScreen">
+
+        <div class="intro-card">
+
+            <h3>MISIÓN CLASIFICADA</h3>
+
+            <h1>EXPEDIENTE 7</h1>
+
+            <p>
+                Sujeto investigado:
+                <strong>Yaiza</strong>
+
+                <br><br>
+
+                Nivel de acceso:
+                Restringido
+
+                <br><br>
+
+                Duración aproximada:
+                60 minutos
+            </p>
+
+            <button id="startBtn">
+                ACEPTAR MISIÓN
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Aplicación principal -->
+    <div class="container hidden" id="app">
+
+        <div class="card fade">
+
+            <!-- Barra de progreso -->
+            <div class="progress-wrapper">
+                <div id="progressBar"
+                     class="progress-bar">
+                </div>
+            </div>
+
+            <!-- Contador -->
+            <div id="counter"></div>
+
+            <!-- Expediente -->
+            <div class="badge"
+                 id="expediente">
+            </div>
+
+            <!-- Título -->
+            <h1 id="title"></h1>
+
+            <!-- Imagen de la misión -->
+            <img
+                id="questionImage"
+                class="question-image"
+                alt="Imagen de la misión">
+
+            <!-- Pregunta -->
+            <p id="question"></p>
+
+            <!-- Respuestas -->
+            <div id="answers"></div>
+
+            <!-- Feedback -->
+            <div id="feedback"></div>
+
+            <!-- Continuar -->
+            <button id="continueBtn">
+                Continuar →
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../Proposicion/js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
